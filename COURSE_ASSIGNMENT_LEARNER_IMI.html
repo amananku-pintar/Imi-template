@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="und" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      word-spacing: normal;
+      background-color: #ffffff;
+      font-family: Ubuntu, Helvetica, Arial,
+                                        sans-serif;
+    }
+
+    table, td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    .logo-img {
+      width: 132px;
+    }
+
+    @media only screen and (max-width: 479px) {
+      .logo-img {
+        width: 92px;
+      }
+    }
+
+    .text-style {
+      font-family: Ubuntu, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 150%;
+      color: #494f5a;
+      font-weight: 400;
+    }
+
+    .bold { font-weight: bold; }
+    .heading { font-size: 20px; font-weight: 700; color: #333; }
+
+    .button {
+      display: inline-block;
+      background: #C8032A;
+      color: #ffffff;
+      font-size: 20px;
+      text-align: center;
+      padding: 8px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="max-width: 600px; margin: auto; background: #ffffff;">
+    <table role="presentation" width="100%">
+      <tr>
+        <td style="background: #C8032A; width: 192px; height: 48px; padding: 0; text-align: left;">
+          <img src="https://dbvqtvbhl8akk.cloudfront.net/pintar_v2_images/IMI_LOGO.jpg"
+            class="logo-img"
+            style="display: block; padding-left: 17px; height: 48px; max-width: 100%; width: auto; vertical-align: top;">
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 40px;">
+          <div class="heading">Hi {{user_name}},</div>
+          <p class="text-style">Great news! You’ve just been assigned a new course {{course_name}} on the KINETIK Sweef EP Hub, and it’s ready for you now.</p>
+          <p class="text-style">To access it, just log in here:</p>
+          <div style="text-align: center;height: 40px; margin: 40px 0; top: 0px;">
+            <a style="text-decoration: none; width:212px;border-radius: 20px;padding: 8px 32px 8px 32px; background:#C8032A;color: #F2F1F0; height: 40px;"
+                href="{{redirect_url}}">See Course</a>
+          </div>
+
+          <div class="text-style">Good luck on your learning journey.</div>
+          <div class="text-style" style="margin-bottom: 1em;">If you have any questions or run into any issues, feel free to <a href="mailto:{{contact_us_help_url}}" style="color: #03629E; text-decoration: underline;">contact us</a>. We’re here to help!</div>
+
+          <div class="text-style">Thank you,</div>
+          <div class="text-style">IMI Institute</div>
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 13px; text-align: left; background-color: #C8032A; color: #f2f1f0; padding: 11px 25px;">
+          <b>© {{year}} PT Pintar Pemenang Asia. All rights reserved.</b>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
